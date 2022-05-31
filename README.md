@@ -1,4 +1,4 @@
-Rock Paper Scissors
+
 a classic rock paper scissors game, where rock beat scissors, scissors beat paper and paper beat rock!
 
 NAME: ilyaki@edu.hac.ac.il
