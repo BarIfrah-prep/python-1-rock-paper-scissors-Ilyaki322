@@ -16,8 +16,14 @@ while isPlaying == "Y":
     for x in choices:
         print("For", choices[x], "press", x)
 
-    playerChoice = int(input())
+    playerChoice = input()
+
+    while playerChoice != '1' and playerChoice != '2' and playerChoice != '3':
+        playerChoice = input("Invalid input try again ")
+
+    playerChoice = int(playerChoice)
     pcNumber = randrange(1, 4)
+
     if 0 < playerChoice < 4:
         print(f"Your choice is: {choices[playerChoice]}\nComputers choice is: {choices[pcNumber]}")
 
@@ -46,7 +52,7 @@ while isPlaying == "Y":
 
 else:
     print("Thanks for playing!")
-    exit()
+
 
 
 
